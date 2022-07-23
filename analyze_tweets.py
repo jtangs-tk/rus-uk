@@ -1,4 +1,3 @@
-
 # Imports
 import sys
 from mrjob.job import MRJob
@@ -6,12 +5,10 @@ from datetime import date
 from datetime import datetime
 from dateutil import parser
 from file_reader import file_reader
+
 # from clean_tweet import clean_tweet
 # WARNING: the above import does not recognize google translate library,
 # this may need to be resolved by my version of Python
-
-# HARDCODED FILEPATH, THIS MUST BE CHANGED
-# FILEPATH = "/home/wgriffin23/cmsc12300-spr-22-wgriffin23/project/123project/"
 
 # global variable containing headers. IMPORTANT: this only applies to headers
 # that align with the May 05 dataset. If the April 20 update was the most
