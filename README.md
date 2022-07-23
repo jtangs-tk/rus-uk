@@ -1,5 +1,7 @@
 Analyzing Tweets about Ukraine using MRJOB and GCP
 
+data from https://www.kaggle.com/datasets/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows?resource=download
+
 APIs to Install:
 pip install nltk — used for stopwords in analyzing tweet language
 pip install urllib — read file from GCS
