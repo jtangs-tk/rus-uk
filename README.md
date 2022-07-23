@@ -1,4 +1,5 @@
 Analyzing Tweets about Ukraine using MRJOB and GCP
+to Flag Potential Russian Bot Accounts
 
 data from https://www.kaggle.com/datasets/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows?resource=download
 
