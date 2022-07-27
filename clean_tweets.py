@@ -32,7 +32,7 @@ def clean_tweet(tweet_text):
 
 '''
 Code used for Google Translate 
-- Had to discard because only allows for free translating of 100 strings per hour.
+- Had to discard because only allows for free translating of 100 strings per hour (curse you, Google).
 
 import googletrans
 from googletrans import Translator
