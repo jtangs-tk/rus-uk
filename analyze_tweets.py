@@ -42,7 +42,6 @@ class MRTweetFlags(MRJob):
         current_row = line.split(',')
         current_user = current_row[COLS["userid"]]
 
-        # if this fails, the row was not parsed properly, do not analyze
         if len(current_row) == len(COLS):
         
             # follow ratio check
