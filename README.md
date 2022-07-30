@@ -3,6 +3,7 @@ to Flag Potential Russian Bot Accounts
 
 Data from https://www.kaggle.com/datasets/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows?resource=download
 Main dataset for Google Cloud Platform's Dataproc API is 30M + tweets (~9 GB)
+Of course, retweets filtered out to avoid false flagging of low tweet originality
 
 APIs to Install:
 pip install nltk — used for stopwords in analyzing tweet language
@@ -27,3 +28,7 @@ sample_1000.csv - 1000 tweet dataseet
 sample_1500.csv - 1500 tweet dataset
 sample_2000.csv - 2000 tweet dataset
 comparison_sample.csv - 1000 tweet dataset for comparison in file_reader.py
+
+Found that approximately 15% of the accounts tweeting were flagged as potential bots.
+Of course, there may simply be accounts with strange follower/following ratios, 
+coincidental account creation times, or other metrics used
